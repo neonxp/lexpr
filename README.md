@@ -9,6 +9,8 @@ This library can evaluate any types of expressions: math expression, logic expre
 
 ## Usage
 
+Full example: [/example/main.go](/example/main.go)
+
 ```go
 ctx := context.Background()
 l := lexpr.New(lexpr.WithDefaults())
@@ -83,7 +85,7 @@ result52, err := l.OneResult(ctx, `10 >= 5 || 10 <= 5`)
 if err != nil {
  log.Fatal(err)
 }
-log.Println("Result 5-2:", result52) // Output: 1
+log.Println("Result 5-2:", result52) // Output: 0
 result53, err := l.OneResult(ctx, `10 >= 5 && 10 <= 5`)
 if err != nil {
  log.Fatal(err)
