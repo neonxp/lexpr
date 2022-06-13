@@ -130,3 +130,11 @@ log.Println("Result 5-3:", result53) // Output: 0
 ## Contribution
 
 PRs are welcome.
+
+## Author
+
+Alexander Kiryukhin <i@neonxp.dev>
+
+## License
+
+![GPL v3](https://www.gnu.org/graphics/gplv3-with-text-136x68.png)
